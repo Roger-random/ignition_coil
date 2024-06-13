@@ -9,6 +9,12 @@ electronic ignition coil. Details can be found in the project notes starting
 from this page:
 https://newscrewdriver.com/2024/06/08/toyota-sienna-denso-coil-on-plug-module/
 
+**Update:** Most of the stuff below turned out to be unnecessary: it turns
+out the easiest thing to do is drive the coil's IGT pin with Arduino `tone()`
+and music follows. See https://hachyderm.io/@regorlas/112606102223651729
+
+---
+
 * [`coil_test`](./coil_test/): Arduino Nano sketch to send pulses
 
 * [`coil_test_circuit`](./coil_test_circuit/): KiCad schematic of coil test circuit board
